@@ -16,8 +16,9 @@ section{
     margin: 0 auto;
 }
 .btn:hover{
-    opacity: 70%;
+    opacity: 75%;
     transition: .5s;
+    border: 1px solid rgb(14, 14, 14, 70%);
 }
 
 /* banner section*/
