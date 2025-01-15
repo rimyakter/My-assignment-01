@@ -15,6 +15,10 @@ section{
     padding: 120px 60px;
     margin: 0 auto;
 }
+.btn:hover{
+    opacity: 70%;
+    transition: .5s;
+}
 
 /* banner section*/
 .banner{
