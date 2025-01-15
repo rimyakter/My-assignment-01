@@ -189,6 +189,10 @@ section{
     font-size: 25px;
     font-weight: 700;
 }
+.donate-taka span:hover{
+    background-color: #C6E4D6;
+    transition: .5s;
+}
 .donate-today input{
     width: 100%;
     padding: 10px;
@@ -241,5 +245,30 @@ section{
 .subscribe-button p{
     color: rgb(14, 14, 14, 70%);
     font-size: 14px;
-    margin-top: 60px;
+}
+/*Quote Section */
+.quote{
+    background-color: #fff;
+    margin: 30px 110px;
+    border-radius: 10px;
+    width: 920px;
+    border: 1px solid rgb(14, 14, 14, 10%);
+    
+}
+.quote-content{
+    background: url("../assets/quote-bg.png") no-repeat;
+    background-position: top left;
+    
+}
+.quote-description{
+    font-size: 14px;
+}
+.quote-content h2{
+    font-size: 25px;
+    margin-top: 20px;
+}
+.quote-content p{
+    font-size: 14px;
+    margin-top: 10px;
+    color: rgb(14, 14, 14, 70%);
 }
