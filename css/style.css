@@ -197,3 +197,49 @@ section{
 .donate-today .donate-btn{
     background-color: #006A50;
 }
+/*Newsletter Section */
+.news-letter{
+    background-color: #C6E4D6;
+    width: 920px;
+    border-radius: 10px;
+}
+.news-content{
+    width: 520px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.news-content h2{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.subscribe-input{
+    padding: 12px 90px;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+.subscribe-btn{
+    padding: 10px 20px;
+    border: none;
+    background-color: #006A50;
+    margin-left: -4px;
+    margin-top: 5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+.subscribe-button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+.subscribe-button p{
+    color: rgb(14, 14, 14, 70%);
+    font-size: 14px;
+    margin-top: 60px;
+}
